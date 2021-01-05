@@ -1,0 +1,48 @@
+====================================
+Master-192.168.99.103
+Node01-192.168.99.104
+Node02-192.168.99.105
+====================================
+Login Details
+====================================
+Master image details
+Username:- master
+Password:- root
+====================================
+Node01 Image details
+Username:- node01
+Password:- root
+====================================
+Root login for all the mail
+Commands:- sudo -i
+Password:- root
+====================================
+Key to join the nodes
+====================================
+sudo kubeadm join 10.0.2.15:6443 --token inupr9.3zzxpjtn4t62adrm \
+    --discovery-token-ca-cert-hash sha256:2ff357e8493d28bdd018205c5c83b23e27b41f5145dd652a1980e5b38f598217
+====================================
+Steps to be followed from the below URL accordingly.
+=========================================================================
+URL:- https://www.linuxtechi.com/install-kubernetes-k8s-on-ubuntu-20-04/
+=========================================================================
+
+Once the installation is completed and if you are able to see the Nodes up and running the master node.
+Please perform the below steps for the installation of Kubernetes WEB UI in the master node
+
+Step1:- Run the below command in the master node for the installation of WEB UI.
+Command:- kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml
+
+Step2:- Once the package is installed. Create the default user to enable serviceaccount of the dashboard as default user.
+Command1:- kubectl create serviceaccount dashboard -n default
+Command2:- kubectl create clusterrolebinding dashboard-admin -n default \
+>  --clusterrole=cluster-admin \
+>  --serviceaccount=default:dashboard
+
+Step3:- Create the token to access the dashboard by running the below command
+Command:- kubectl get scecret $(kubectl get serviceaccount dashboard -o jsonpath="{.secrets[0].name}") -o jsonpath="{.data.token}" | base64 --decode
+
+Step4:- copy the token generated and run the below command.
+Command:- kubectl proxy
+
+Step5:- Login to webui with the copied token. you should be able to see the nodes.
