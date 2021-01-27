@@ -1,1 +1,157 @@
-https://www.youtube.com/watch?v=Dd9-UxrNiD0
+https://www.guru99.com/kubernetes-vs-docker.html
+
+medium.com
+https://cloud.google.com/solutions/heterogeneous-deployment-patterns-with-kubernetes
+
+
+kube-proxy is a network proxy that runs on each node in your cluster, implementing part of the Kubernetes Service concept. kube-proxy maintains network rules on nodes. These network rules allow network communication to your Pods from network sessions inside or outside of your cluster.
+
+
+
+https://www.google.com/imgres?imgurl=https%3A%2F%2F1.cms.s81c.com%2Fsites%2Fdefault%2Ffiles%2F2018-11-19%2FScreen%2520Shot%25202018-11-19%2520at%25205.03.18%2520PM.png&imgrefurl=https%3A%2F%2Fwww.ibm.com%2Fcloud%2Fblog%2Fchef-ansible-puppet-terraform&tbnid=6F9yI3VvEc__3M&vet=12ahUKEwix6rSM8pLuAhVPIysKHeDYCy0QMygDegUIARCpAQ..i&docid=368qhoN6wJG3wM&w=1432&h=712&q=infrastructure%20as%20code%20tools%20comparison&ved=2ahUKEwix6rSM8pLuAhVPIysKHeDYCy0QMygDegUIARCpAQ
+
+https://www.google.com/imgres?imgurl=https%3A%2F%2F1.cms.s81c.com%2Fsites%2Fdefault%2Ffiles%2F2018-11-19%2FScreen%2520Shot%25202018-11-19%2520at%25205.03.18%2520PM.png&imgrefurl=https%3A%2F%2Fwww.ibm.com%2Fcloud%2Fblog%2Fchef-ansible-puppet-terraform&tbnid=6F9yI3VvEc__3M&vet=12ahUKEwix6rSM8pLuAhVPIysKHeDYCy0QMygDegUIARCpAQ..i&docid=368qhoN6wJG3wM&w=1432&h=712&q=infrastructure%20as%20code%20tools%20comparison&ved=2ahUKEwix6rSM8pLuAhVPIysKHeDYCy0QMygDegUIARCpAQ
+
+
+Assignment 1 - Install & config Ansible on Linux boxes - Centos & Master boxes - Try sample programs
+Assignment 2 - Simple example of provisiniong of Apache Web server or Nginix Web server in 1 or 2 worker nodes using Ansible
+
+Assignment 3 - Ansible Docker Vagrant good combo playing around and sharing your examples
+
+kind tool
+
+kubernaties hub
+
+https://joachim8675309.medium.com/docker-the-terraform-way-a7c16b5f59ed
+
+https://gcr.io
+https://kind.sigs.k8s.io/
+https://joachim8675309.medium.com/vagrant-provisioning-with-ansible-6dba6bca6290
+
+https://collabnix.com/5-minutes-to-run-your-first-docker-container-on-google-cloud-platform-using-terraform/
+
+katacode cloud
+
+how to get started with terraform
+
+https://www.golibrary.co/terraform-to-provision-nginx-docker-container/
+https://upcloud.com/community/tutorials/get-started-terraform/
+
+https://medium.com/@golibraryco/how-to-create-vm-in-gcp-using-devops-tool-terraform-ab1b2ef00fd2
+
+
+From Santosh Kuppili to Everyone:  12:13 PM
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
+for configuring profiles
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+to install aws cli
+https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
+to create AWS account
+https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html
+to create a user in aws
+From Training & Support to Everyone:  12:15 PM
+https://medium.com/@golibraryco/how-to-create-vm-in-gcp-using-devops-tool-terraform-ab1b2ef00fd2
+
+From Training & Support to Everyone:  09:04 AM
+https://github.com/Training-and-Development-SRE/SRE-Helmcharts-Consul-Vault
+From Manish to Everyone:  09:16 AM
+WFSRE12 is not working for me
+From Tirupathi rao’s iPhone to Everyone:  09:17 AM
+wfsre27 not able to open
+From Manish to Everyone:  09:17 AM
+Is Hitesh around ?
+From Naveen Kumar V to Everyone:  09:34 AM
+https://github.com/Training-and-Development-SRE/SRE-Helmcharts-Consul-Vault
+
+From Kiran Joseph to Everyone:  09:34 AM
+http://man.hubwiz.com/docset/Consul.docset/Contents/Resources/Documents/docs/guides/minikube.html
+From Murali's iPhone to Everyone:  09:34 AM
+Thank you!
+From Dinesh Chandran Thillaiyappan to Everyone:  09:34 AM
+Thanks
+From Tirupathi rao’s iPhone to Everyone:  09:34 AM
+hitesh please help on VDI
+From Prakash Addanki to Everyone:  09:35 AM
+@krishna - I completed the hello world word express example. it is up and running on browser
+From Lalitha Krishna to Everyone:  09:35 AM
+minikube delete --all
+minikube start --alsologtostderr -v=8
+From Manish to Everyone:  09:39 AM
+dleted ..starting it again
+From Training & Support to Everyone:  09:45 AM
+https://ystatit.medium.com/install-prometheus-and-grafana-using-helm-b83b5018a1c4
+From Murali's iPhone to Everyone:  09:54 AM
+copying the tip that Nagesh mentioned yesterday to start minikube with all ports
+
+minikube start --extra-config=apiserver.service-node-port-range=1-65535
+From Manish to Everyone:  10:07 AM
+Minikube is working now ..its fixed
+From Training & Support to Everyone:  10:16 AM
+Chef in Spec
+From Raghava Tripathi to Everyone:  10:28 AM
+need to drop off for a meeting
+From Narayanan Anand to Everyone:  10:49 AM
+https://learn.hashicorp.com/tutorials/vault/agent-kubernetes
+above link gives clear explanation
+
+
+http://man.hubwiz.com/docset/Consul.docset/Contents/Resources/Documents/docs/guides/minikube.html
+From srinivasa chandaka to Everyone:  12:25 PM
+http://man.hubwiz.com/docset/Consul.docset/Contents/Resources/Documents/docs/guides/minikube.html
+From Vandna kakkar to Everyone:  12:27 PM
+https://learn.hashicorp.com/tutorials/vault/agent-kubernetes
+https://github.com/hashicorp/vault-guides/tree/master/identity/vault-agent-k8s-demo
+
+
+
+https://howtodoinjava.com/spring-cloud/consul-service-registration-discovery/
+
+
+https://www.tutorialspoint.com/consul/consul_introduction.htm
+
+https://www.tutorialspoint.com/consul/consul_introduction.htm
+
+hashicorp  , service mesh
+
+chef inspec  - compliance tool, notary,  for firewall, 
+
+
+jasmine, moca, postman, insomnia, junit  - testing tools
+
+developers unit testing tools - assignment by tomorrow
+
+Murali: here is my number 93986 83079
+
+
+https://www.javainuse.com/spring/cloud-vault   **********
+
+https://technology.amis.nl/platform/first-steps-with-istio-on-kubernetes-on-minikube-on-windows-10/#:~:text=First%2C%20download%20Istio%20for%20Windows,the%20installation%20location%20of%20Istio.
+https://dzone.com/articles/setup-of-a-local-kubernetes-and-istio-dev-environm-1
+https://meteatamel.wordpress.com/2018/02/19/istio-kubernetes-on-windows/
+https://github.com/Training-and-Development-SRE/Service_Mesh_Kubernetes
+https://logz.io/blog/istio-linkerd-consul-comparison-service-meshes/#:~:text=Service%20Mesh%20Architecture&text=Consul%20Connect%20uses%20an%20agent,separate%20container%20within%20each%20pod.
+https://platform9.com/blog/kubernetes-service-mesh-a-comparison-of-istio-linkerd-and-consul/
+
+Deploy a Stateful application using K8 Engine
+Deep dive into StatefulSet Basicus in K8
+Run a Replicated Stateful Application in K8
+https://platform9.com/blog/stateful-applications-with-kubernetes/
+
+https://12factor.net/
+https://docs.apigee.com/api-platform/istio-adapter/concepts
+apigee adapter is now available with istio
+brings best of API management and mesh capabilities
+
+https://platform9.com/blog/kubernetes-service-mesh-a-comparison-of-istio-linkerd-and-consul/
+this is a better link for 12 factor
+https://dzone.com/articles/are-you-12-factor-application-ready
+
+
+git clone  https://github:isto/isto
+
+
+https://airwavetechio.medium.com/istio-with-minikube-on-windows-pt-1-e33e5f193b2
+git clone https://github.com/istio/istio
+https://meteatamel.wordpress.com/2018/02/19/istio-kubernetes-on-windows/
+
