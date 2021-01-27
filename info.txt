@@ -155,3 +155,4 @@ https://airwavetechio.medium.com/istio-with-minikube-on-windows-pt-1-e33e5f193b2
 git clone https://github.com/istio/istio
 https://meteatamel.wordpress.com/2018/02/19/istio-kubernetes-on-windows/
 
+https://technology.amis.nl/platform/first-steps-with-istio-on-kubernetes-on-minikube-on-windows-10/#:~:text=First%2C%20download%20Istio%20for%20Windows,the%20installation%20location%20of%20Istio.
